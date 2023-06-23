@@ -1,3 +1,28 @@
 .LoginPage {
-    
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    height: 100vh;
+
+    .Title {
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 30px;
+    }
+
+    .UserImage {
+        padding: 10px;
+        background: linear-gradient(0deg, #b5c5cf, transparent);
+        border: solid 1px #cecece;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px #f1f1f1;
+        max-width: 180px;
+
+        img {
+            border-radius: 6px;
+        }
+    }
 }
